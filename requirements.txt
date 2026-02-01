@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+google-generativeai
+beautifulsoup4
+requests
+duckduckgo-search
+googlesearch-python
+crawl4ai
+playwright
