@@ -95,7 +95,7 @@ playwright install chromium
 3. **Configure environment variables:**
 ```bash
 cp .env.example .env
-# Edit .env and add your GEMINI_API_KEY
+# Edit .env and add your OPENROUTER_API_KEY
 ```
 
 4. **Run the server:**
@@ -119,7 +119,7 @@ Server runs at `http://localhost:8000`
    - Render will auto-detect `render.yaml`
 
 3. **Set Environment Variables:**
-   - Add `GEMINI_API_KEY` in Render dashboard
+   - Add `OPENROUTER_API_KEY` in Render dashboard
    - Other vars are configured in `render.yaml`
 
 4. **Deploy:**
@@ -152,7 +152,9 @@ CivicBackend/
 
 | Variable | Description | Required |
 |----------|-------------|----------|
-| `GEMINI_API_KEY` | Google Gemini API key | Yes |
+| `OPENROUTER_API_KEY` | OpenRouter API key (for LLM calls) | Yes |
+| `OPENROUTER_MODEL` | Model to use (default: `google/gemini-2.0-flash-001`) | No |
+| `OPENROUTER_BASE_URL` | OpenRouter base URL (default: `https://openrouter.ai/api/v1`) | No |
 
 ## 🧪 Testing
 
