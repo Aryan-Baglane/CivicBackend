@@ -9,3 +9,4 @@ duckduckgo-search
 googlesearch-python
 crawl4ai
 playwright
+openai

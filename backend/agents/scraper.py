@@ -3,7 +3,7 @@ import json
 import time
 import asyncio
 from crawl4ai import AsyncWebCrawler
-from ddgs import DDGS
+from duckduckgo_search import DDGS
 from googlesearch import search as google_search
 from agents.llm import llm
 import hashlib
