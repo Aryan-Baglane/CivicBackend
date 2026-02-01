@@ -5,7 +5,7 @@ python-dotenv
 google-generativeai
 beautifulsoup4
 requests
-duckduckgo-search
+ddgs
 googlesearch-python
 crawl4ai
 playwright
